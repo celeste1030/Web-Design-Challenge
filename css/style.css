@@ -1,0 +1,79 @@
+body {
+    background-color: #FFF0F5 ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4B0082;
+}
+
+h5,
+h6 {
+  text-align: center;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+.card {
+    background-color:#E6E6FA;
+}
+
+.div {
+    background-color:#4B0082;
+}
+
+.navbar {
+    padding: 30px;
+    border-bottom:.5px solid #FF00FF;
+  }
+   
+.navbar .navbar-brand {
+    color: #FFF0F5;
+    background-color: darkorchid;
+    padding: 5px;
+    margin: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#4B0082;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { 
+    color: white;
+    background-color: #ff00ff;
+} 
+
+.navbar-light .navbar-nav .dropdown-menu .dropdown-item:hover { 
+    color: white;
+    background-color: #BA55D3;
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        background-color: darkorchid; 
+        color: white;
+    }
+    .navbar .navbar-nav .nav-link {
+        color:white;
+    }
+    .navbar .navbar-nav .nav-link:hover {
+        color:aqua;
+    }
+    .table {
+        width:25%
+    }
+}
+
+
+
