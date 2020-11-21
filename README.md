@@ -18,7 +18,32 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 https://celeste1030.github.io/Web-Design-Challenge/index.html
 
-##Screenshots
+## Screenshots
+
+### Landing page in large viewport:
+
+![alt text](Images/indexpage.png)
+
+### Landing page in small viewport:
+
+![alt text](Images/minipage.png)  ![alt text](Images/minipage2.png)
+
+### Single plot analysis example:
+
+![alt text](Images/temppage.png)
+
+### Comparison page:
+
+![alt text](Images/comparepage.png)
+
+### Source Data page:
+
+![alt text](Images/datapage.png)
+
+### Dropdown menu:
+
+![alt text](Images/dropdown.png)
+
 
 
 
