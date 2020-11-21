@@ -23,111 +23,110 @@
 
   <!--Nav Bar-->
   <nav class="navbar navbar-expand-md navbar-light">
-    
-      <a class="navbar-brand" href="index.html">Latitude vs. X</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbarNavDropdown" class="navbar-collapse collapse">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false" href="#">
-              Plots (x = ...)
+
+    <a class="navbar-brand" href="index.html">Latitude vs. X</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" href="#">
+            Plots (x = ...)
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="xtemp.html">Temperature</a>
-              <a class="dropdown-item" href="xhumid.html">Humidity</a>
-              <a class="dropdown-item" href="xcloud.html">Cloudiness</a>
-              <a class="dropdown-item" href="xspeed.html">Wind Speed</a>
+            <a class="dropdown-item" href="xtemp.html">Temperature</a>
+            <a class="dropdown-item" href="xhumid.html">Humidity</a>
+            <a class="dropdown-item" href="xcloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="xspeed.html">Wind Speed</a>
           </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="data.html">Data</a>
+          <a class="nav-link" href="data.html">Data</a>
         </li>
-    
-        </ul>
-      </div>
+
+      </ul>
+    </div>
   </nav>
 
-<div class="container">
-  <div class="row">
+  <div class="container">
+    <div class="row">
       <!-- Project Description -->
       <div class="col-md-6 py-2">
-          <div class="card">
-              <div class="card-body">
-                <div class="monospace">
-                  <h2 class="card-title" style="text-align: center";">Latitude vs. Wind Speed</h2>
-                  <hr>
-                  <img src="Images/LatitudeVsWindSpeed.png" class="card-img-top"
-                        alt="Latitude v. WindSpeed">
-                  <p class="card-text">Wind Speed, and such observations </p>
-                  <p class="card-text">To do this, Rockin' around the Christmas tree, At the Christmas party hop, Mistletoe hung where you can see, Every couple tries to stop, Rockin' around the Christmas tree, Let the Christmas spirit ring, Later we'll have some pumpkin pie, And we'll do some caroling
-                  You will get a sentimental feeling when you hear, Voices singing, let's be jolly Deck the halls with boughs of holly! 
-                  </p>
-                </div>
-              </div>
-              
-
+        <div class="card">
+          <div class="card-body">
+            <div class="monospace">
+              <h2 class="card-title" style="text-align: center" ;">Latitude vs. Wind Speed</h2>
+              <hr>
+              <img src="Images/LatitudeVsWindSpeed.png" class="card-img-top" alt="Latitude v. WindSpeed">
+              <hr>
+              <p class="card-text">According to analysis, <b>wind speed has no correlation to latitude</b>. Almost all
+                of the cities included in the dataset had a wind speed between 15mph and 0 mph. Proximity to the equator
+                was not a factor.</p>
+            </div>
           </div>
-      </div>
 
 
-<div class="col-md-6 py-5">
-  <div class="card">
-      <div class="card-body">
-        <div class="monospace">
-          <h3 class="card-title" style="text-align: center">Visualizations</h3>
-          <hr>
-          <div class="row">
-            <div class="col-sm-6 py-3">
-                <h6>Temperature</h6>
-                <a href="xtemp.html"><img src="Images/LatitudeVsMaxTemp.png"
-                          alt="Latitude v. Max Temp" class="img-thumbnail"></a>
-              </div>
-              <div class="col-sm-6 py-3">
-                  <h6>Humidity</h6>
-                  <a href="xhumid.html"><img src="Images/LatitudeVsHumidity.png"
-                          alt="Latitude v. Humidity" class="img-thumbnail"></a>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-sm-6 py-3">
-                  <h6>Cloudiness</h6>
-                  <a href="xcloud.html"><img src="Images/LatitudeVsCloudiness.png"
-                          alt="Latitude v. Clouds" class="img-thumbnail"></a>
-              </div>
-              <div class="col-sm-6 py-3">
-                  <h6>Wind Speed</h6>
-                  <a href="xspeed.html"><img src="Images/LatitudeVsWindSpeed.png"
-                          alt="Latitude v. Wind Speed" class="img-thumbnail selected"></a>
-        
-              </div>
-          </div>
-          <hr>
         </div>
       </div>
+
+
+      <div class="col-md-6 py-5">
+        <div class="card">
+          <div class="card-body">
+            <div class="monospace">
+              <h3 class="card-title" style="text-align: center">Visualizations</h3>
+              <hr>
+              <div class="row">
+                <div class="col-sm-6 py-3">
+                  <h6>Temperature</h6>
+                  <a href="xtemp.html"><img src="Images/LatitudeVsMaxTemp.png" alt="Latitude v. Max Temp"
+                      class="img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 py-3">
+                  <h6>Humidity</h6>
+                  <a href="xhumid.html"><img src="Images/LatitudeVsHumidity.png" alt="Latitude v. Humidity"
+                      class="img-thumbnail"></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 py-3">
+                  <h6>Cloudiness</h6>
+                  <a href="xcloud.html"><img src="Images/LatitudeVsCloudiness.png" alt="Latitude v. Clouds"
+                      class="img-thumbnail"></a>
+                </div>
+                <div class="col-sm-6 py-3">
+                  <h6>Wind Speed</h6>
+                  <a href="xspeed.html"><img src="Images/LatitudeVsWindSpeed.png" alt="Latitude v. Wind Speed"
+                      class="img-thumbnail selected"></a>
+
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
 
 
-  
-  
+
+
 
 
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
